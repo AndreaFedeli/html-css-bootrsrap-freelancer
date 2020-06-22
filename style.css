@@ -1,0 +1,284 @@
+header {
+  background:darkblue;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 9999999;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+
+
+.col-4{
+  background-color: blue;
+}
+
+h2 {
+  color: white;
+  margin:0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+ul{
+  margin:0 auto;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+
+}
+
+.jumbotron{
+  background-color: #23cdd1;
+  width: 100%;
+  height: 600px;
+
+
+}
+
+
+.jumbotron img {
+ margin: 0 auto;
+ display: block;
+ background-color: #23cdd1;
+ margin-top: 60px;
+ width: 70%;
+
+}
+
+.jumbotron h2{
+  text-align: center;
+  color: white;
+  margin-left: 60px;
+}
+
+.jumbotron h3{
+  color: white;
+  margin-left: 50px;
+}
+
+.boo_star .glyphicon-star {
+  font-size: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  width: 300px;
+
+}
+
+.boo_star::before,
+.boo_star::after {
+  content: '';
+  width: 10%;
+  height: 3px;
+  background-color: white;
+  border-radius: 1px;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-portfolio{
+height: 800px;
+width: 100%;;
+background-color: white;
+
+}
+.boo_portfolio-img {
+  position: relative;
+}
+
+.boo_portfolio-overlay {
+  display: none;
+}
+
+.boo_portfolio-img:hover .boo_portfolio-overlay {
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 230px;
+  background-color: rgba(26, 187, 156, 0.7);
+  border-radius: 10px;
+}
+
+.boo_portfolio-overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  color: white;
+}
+
+
+.container-portfolio h2{
+  color: blue;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+
+}
+
+
+
+.about{
+  width: 100%;
+  height: 600px;
+  margin-top: 0 auto;
+  background-color: #23cdd1;
+
+}
+
+.about h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+
+
+}
+
+.about hr{
+  margin-right:5px;
+  width: 50%;
+
+
+}
+
+
+.card{
+  text-align: left;
+  width: 35%;
+  height: 200px;
+  margin-left: 160px;
+  margin-top: 60px;
+  float: left;
+  background-color: #23cdd1;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+button {
+  width: 140px;
+  height: 45px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 700px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 10px;
+  background-color: #23cdd1;
+  color: white;
+  border: 1px solid white;
+
+
+
+}
+
+
+
+
+.contact{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  text-align: center;
+}
+
+.contact h1{
+  text-align: center;
+  color: blue;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 50px;
+  font-size: 50px;
+
+}
+
+hr {
+  width: 10%;
+  display: inline-table;
+  color: blue;
+
+}
+
+.contatti{
+  width: 80%;
+  height:400px;
+  background-color: white;
+  margin-left: 120px;
+  text-align: left;
+  padding-left: 150px;
+}
+
+.contatti hr{
+  width: 80%;
+  color:black;
+
+}
+
+h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: blue;
+}
+
+.contatti button{
+  margin-left: auto;
+  width: 70px;
+}
+
+.blu{
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+}
+
+.rec {
+  width: 350px;
+  height: 200px;
+  background-color: blue;
+  display: inline;
+  float: left;
+  margin-left: 130px;
+  text-align: center;
+}
+
+.rec h2{
+  padding-left: 5px;
+  padding-top: 40PX;
+  color: WHITE;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.rec h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+
+}
+
+.rec p{
+  color: white;
+  font-size: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: darkblue;
+  text-align: center;
+
+}
+.footer h4{
+  margin-left: 250px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
