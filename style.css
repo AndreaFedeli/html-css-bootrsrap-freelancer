@@ -136,6 +136,11 @@ background-color: white;
 
 }
 
+.about .boo_star{
+  margin-left: 470px;
+
+}
+
 .about h1 {
   text-align: center;
   color: white;
@@ -281,4 +286,8 @@ footer{
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+i{
+  font-size: 30px;
+  color: white;
 }
